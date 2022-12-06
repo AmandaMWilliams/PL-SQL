@@ -1,0 +1,12 @@
+<h4> What is %Type?</h4>
+%Type gets the datatype of the referenced column or value and assigns 
+this datatype to the declared variable.
+<br>
+<h4> Uses</h4>
+If we are working in a DB and the SALARY column precision is set to 6, 
+but now someone is making more than 6 figures, there will be errors.  
+To resolve the errors, we will need to find every place where the 
+precision is 6 and change it to accommodate. This may be difficult or 
+tedious. But if we use %Type when we are creating our code, it will 
+automatically update in those places when the root variable precision 
+is updated.

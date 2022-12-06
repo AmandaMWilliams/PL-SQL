@@ -1,22 +1,21 @@
-<h3>Declaring Variables</h3><br>
-<br>
+<h3>Declaring Variables</h3>
 Name [CONSTANT] datatype [NOT NULL] [:=|DEFAULT value|expression];<br>
 
-
-
-<h4> Setting a default value </h4><br>
-<br>
+***
+<h4> Setting a Default Value </h4>
 DECLARE <br>
-    V_TEXT VARCHAR2 (50) NOT NULL DEFAULT 'HELLO'; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V_TEXT VARCHAR2 (50) NOT NULL DEFAULT 'HELLO'; <br>
 BEGIN <br>
-    DBMS_OUTPUT.PUT_LINE(V_TEXT); <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DBMS_OUTPUT.PUT_LINE(V_TEXT); <br>
+END;<br>
+
+***
+<h4> Declaring a Value (other than the default)</h4>
+DECLARE <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V_TEXT VARCHAR2 (50) NOT NULL DEFAULT 'HELLO'; <br>
+BEGIN <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;V_TEXT := 'PL/SQL'; <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DBMS_OUTPUT.PUT_LINE(V_TEXT); <br>
 END; <br>
 
-<h4> Declaring a value other than the default</h4><br>
-<br>
-DECLARE <br>
-    V_TEXT VARCHAR2 (50) NOT NULL DEFAULT 'HELLO'; <br>
-BEGIN <br>
-    V_TEXT := 'PL/SQL'; <br>
-    DBMS_OUTPUT.PUT_LINE(V_TEXT); <br>
-END; <br>
+***

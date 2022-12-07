@@ -14,4 +14,6 @@
 --&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Single line comment<br>
 / *  */&nbsp;&nbsp;Multi-line comment<br>
 ***
+<h4>Hot-keys and Shortcuts</h4>
 
+Ctrl + F7&nbsp;&nbsp;&nbsp;Auto-format code

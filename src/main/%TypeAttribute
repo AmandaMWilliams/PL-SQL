@@ -9,4 +9,4 @@ To resolve the errors, we will need to find every place where the
 precision is 6 and change it to accommodate. This may be difficult or 
 tedious. But if we use %Type when we are creating our code, it will 
 automatically update in those places when the root variable precision 
-is updated.
+is updated. <br>

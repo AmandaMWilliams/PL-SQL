@@ -14,7 +14,7 @@ variable.<br>
 Value is assigned using a : before the variable name and assigning 
 value with :=.<br>
 <br>
-Ex:<br>
+Ex:<br> 
 
 variable var_text varchar2(30);<br>
 BEGIN<br>
